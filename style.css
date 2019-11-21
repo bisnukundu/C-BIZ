@@ -1,0 +1,355 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+/* TOP HEADER SECTION START  */
+.container{
+    width:1170px;
+    margin:auto;
+    overflow:hidden;
+    border:2px solid red;
+}
+.container_img{
+    width:1170px;
+    margin:auto;
+    overflow:hidden;
+    border:2px solid red;
+    height:100%;
+}
+.top_header{}
+.top_head_menu{
+    width:100%;
+    float:left;
+}
+.top_head_menu ul{
+    width:90%;
+    overflow:hidden;
+    float:left;
+}
+.top_head_menu ul li{
+    list-style:none;
+    float:left;
+}
+.top_head_menu ul li i{
+    padding-right:10px;
+}
+.top_head_menu ul li a{
+    text-decoration: none;
+    padding: 15px 20px;
+    display:block;
+    border-right:1px solid #E9E9E9;
+    color:#9C9C9C;
+}
+.top_head_menu ul:first-child{
+    border-left:1px solid #E9E9E9;
+}
+.top_head_menu select{
+    width:10%;
+    float:right;
+    padding:15px 0px;
+    border:none;
+    border-right:1px solid #E9E9E9;
+    border-left:1px solid #E9E9E9;
+    color:#9C9C9C;
+}
+/* TOP HEADER SECTION END */
+/* ======================================== */
+/* DOWN HEADER SECTION START */
+.down_header{
+    background: #272F4F;
+}
+.logo{
+    width:20%;
+    float:left;
+    text-transform: uppercase;
+}
+.logo h1{
+    color:white;
+    padding:35px 0px;
+}
+.menu{
+    width:80%;
+    float:left;
+    height: 101px;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    list-style:none;
+    float:left;
+}
+.menu ul li a{
+    color:white;
+    padding:40px 20px;
+    display:block;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.menu ul li a:hover{
+    color:#DBA50C;
+    border-bottom: 3px solid #DBA50C;
+    box-sizing: border-box;
+}
+/* DOWN HEADER SECTION END */
+/* ======================================== */
+/* IMAGE SECTION START */
+.img_section{
+    background:linear-gradient(#0000007a,#0000007a),url("images/photo_2019-11-18_21-16-08.jpg")no-repeat;
+    background-size:cover;
+    height:600px;
+    position: relative;
+}
+.img_txt{
+    width:50%;
+    color:white;
+    position: absolute;
+    top:50%;
+    transform: translate(0,-50%);
+}
+.img_txt h1{
+    font-size:40px;
+    text-transform: capitalize;
+    margin-bottom:20px;
+}
+.img_txt h1 span{
+    color:#FDBC00;
+    text-transform: capitalize;
+}
+.img_txt p{
+    line-height: 1.5;
+}
+.img_txt button{
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    margin-right: 15px;
+    margin-top:30px;
+    color:white;
+    transition: 0.5s;
+}
+.w_v{
+    background:black;
+}
+.b_n{
+    background:none;
+}
+.w_v:hover{
+    background:#FDBC00;
+    border:1px solid #FDBC00;
+}
+.b_n:hover{
+    background:#FDBC00;
+    border:1px solid #FDBC00;
+}
+/* IMAGE SECTION END  */
+/* =============================== */
+/* OUR AWESOME SERVICE SECTION START */
+.o_a_s{
+    padding:100px 0px;
+}
+.oas_txt{
+    text-align:center;
+    text-transform: capitalize;
+}
+.oas_txt h1{
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size:30px;
+}
+.oas_txt h1 span{
+    font-weight:bold;
+}
+.oas_txt p{
+    line-height: 1.5;
+    color:#7F93C3;
+}
+.oas_box{
+    width:33.33%;
+    float:left;
+    text-align:center;
+    border:1px solid black;
+    margin-top:50px;
+}
+.oas_box img{
+    width:20%;
+    margin:auto;
+    display:block;
+}
+.oas_box p{
+    color:#7F93C3;
+    line-height: 1.5;
+}
+.oas_box h3{
+    padding:20px 0px;
+}
+/* OUR AWESOME SERVICE SECTION END */
+/* ================================================= */
+/* OUR GOAL SERVICE SECTION START */
+.our_goal{
+    background:#151C3D;
+    padding:100px 0px;
+}
+.og_txt{
+    width:50%;
+    float:left;
+    border:1px solid black;
+    color:white;
+}
+.og_txt h3{
+    font-size:30px;
+    font-weight: 300;
+}
+.og_txt h3 span{
+    font-weight: bold;
+}
+
+.og_txt p{
+    padding:20px 0px;
+    line-height: 1.5;
+}
+.og_boxs{
+    width:50%;
+    float:right;
+    border:1px solid red;
+    color:white;
+}
+.og_box{
+    width:50%;
+    border:1px solid white;
+    text-align: center;
+    padding:50px 0px;
+    float:left;
+    margin-bottom:20px;
+    transition:0.5s;
+}
+.og_box:hover{
+    background:#FDBC00;
+    border:1px solid #FDBC00;
+}
+.og_box h1{
+    margin-bottom: 10px;
+}
+.og_box h4{
+    text-transform: uppercase;
+}
+/* OUR GOAL SERVICE SECTION END */
+/* ===================================== */
+/*OUR WONDERFUL GALLAREY SERVICE SECTION START  */
+.our_wonderful_gallarey {
+    padding: 100px 0px;
+}
+.owg_txt{
+    text-align:center;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+}
+.owg_txt h1{
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size:30px;
+}
+.owg_txt h1 span{
+    font-weight:bold;
+}
+.owg_txt p{
+    line-height: 1.5;
+    color:#7F93C3;
+}
+.box_img{
+    width:33.33%;
+    border:1px solid red;
+    float:left;
+    border-radius: 20px;
+}
+.box_img img{
+    width:100%;
+    border-radius: 20px;
+}.img{
+    height: 523px;
+}
+.img2{
+    height:312px;
+    width:100%;
+}
+.img2 img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}
+.img6{
+    width:100%;
+    height: 310px;
+}
+.img6 img{
+    width:100%;
+    height:310px;
+}
+.img1{
+    height:525px;
+}
+.img1 img{
+    height:100%;
+}
+.img1, .img2, .img3, .img4, .img5, .img6{
+    position: relative;
+    margin-top:20px;
+}
+.front{
+    position: absolute;
+    border:1px solid black;
+    width:100%;
+    text-align:center;
+    background:black;
+    color:white;
+    height:100%;
+    top:0;
+    left:0;
+    border-radius: 20px;
+    transform: scale(0);
+    transition:0.5s;
+}
+
+.f_txt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.f_txt img{
+    width:40px;
+    height:40px;
+    border-radius: 0px;
+    margin-top:30px;
+    transition:0.5s;
+}
+.f_txt img:hover{
+    background: #D29F0F;
+    padding:10px;
+}
+.f_txt h1{
+    margin-bottom: 5px;
+}
+.img1:hover .front{
+    transform: scale(1);
+}
+.img2:hover .front{
+    transform: scale(1);
+}
+.img3:hover .front{
+    transform: scale(1);
+}
+.img4:hover .front{
+    transform: scale(1);
+}
+.img5:hover .front{
+    transform: scale(1);
+}
+.img6:hover .front{
+    transform: scale(1);
+}
+
+/* OUR WONDERFUL GALLAREY SERVICE SECTION   */
