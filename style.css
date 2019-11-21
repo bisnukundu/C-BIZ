@@ -196,7 +196,6 @@
 .og_txt{
     width:50%;
     float:left;
-    border:1px solid black;
     color:white;
 }
 .og_txt h3{
@@ -214,7 +213,6 @@
 .og_boxs{
     width:50%;
     float:right;
-    border:1px solid red;
     color:white;
 }
 .og_box{
@@ -241,6 +239,7 @@
 /*OUR WONDERFUL GALLAREY SERVICE SECTION START  */
 .our_wonderful_gallarey {
     padding: 100px 0px;
+    background:#F4F8FF;
 }
 .owg_txt{
     text-align:center;
@@ -353,3 +352,39 @@
 }
 
 /* OUR WONDERFUL GALLAREY SERVICE SECTION   */
+/* ======================================== */
+/* WHAT WE DO SERVICE SECTION STAR */
+.What_We_Do{
+    padding: 100px 0px 65px 0px;
+}
+.wwd_img{
+    width:50%;
+    float:left;
+}
+.wwd_txt{
+    width:50%;
+    float: right;
+}
+.wt_box{
+    width:33.33%;
+    float:left;
+    border:1px solid #F1F1F1;
+    text-align:center;
+    padding:10px;
+    margin-bottom:30px;
+    height: 190px;
+    cursor: pointer;
+}
+.wt_box img{
+    width:50px;
+    margin-bottom:10px;
+}
+.wt_box h1{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.wt_box p{
+    line-height: 1.5;
+    color:#837F7F;
+}
+/* WHAT WE DO SERVICE SECTION END */
